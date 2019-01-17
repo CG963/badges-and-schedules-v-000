@@ -23,5 +23,7 @@ def printer(speakers)
     return num
   end
   
-  assign_rooms
+  assign_rooms(speakers).each do |num|
+    return num
+  end
 end
